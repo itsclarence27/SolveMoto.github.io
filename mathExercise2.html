@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="phone"> <!-- The Cointainer of whole content -->
+        <div class="screen">
+          <!-- Content displayed on the screen -->
+
+          <!-- Here is the games -->
+
+          <div class="math-games">
+            <span class="items">
+                <span id="item1"></span> - <span id="item2"></span> = ?
+            </span>
+            <input id="input-el" type="text" class="items" placeholder="Type your answer">
+            <button id="check-btn" class="items">Check</button>
+          </div>
+         
+
+        </div>
+
+        <div id="myModal" class="modal-container">
+            <!-- Here is the text console -->
+            <span class="close">&times;</span>
+            <p class="theAnswer">The answer</p>
+        </div>
+
+        <!--for next question-->
+        <div id="nextQuestion" class="next-container">
+            <span class="nextButton">Next</span>
+        </div>
+
+
+        <div class="buttons">
+          <!-- Buttons or controls -->
+          <a href="choice.html"><button class="nav-button">&#9664;</button></a>
+          <a href="home.html"><button class="nav-button">&#8962;</button></a>
+          <a href="credits.html"><button class="nav-button">■</button></a>
+        </div>
+    </div>
+
+    <script src="app2.js" async defer></script>
+</html>

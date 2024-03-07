@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 20px 'Montserrat', sans-serif;
+}
+
+  .phone {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    position: relative;
+    border: solid 15px black;
+    border-top: solid 40px black;
+    
+  }
+  
+  .screen {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .screen p {
+    font-size: 24px;
+  }
+  
+  .buttons {
+    margin-top: 205%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 1px;
+  }
+  
+  .buttons button {
+      width: 80px;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ccc;
+      cursor: pointer;
+  }
+  
+  .nav-button {
+      color: black;
+      font-size: 20px;
+  }
+
+  .image {
+    position: absolute;
+    left: 80px;
+    width: 100%;
+    height: 50%;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .image img {
+    width: 100px;
+    height: 100px; 
+  }
+
+  .image button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 37%;
+  }
+
+  .productName {
+    font: 40px "Indie Flower", cursive;
+  }
+
+  .fword {
+    color: blue;
+  }
+
+  .sword {
+    color: red;
+  }
+
+  .icon-button {
+    border: solid 1px black;
+    border-radius: 20px;
+    background: #1abc9c;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+    </style>
+</head>
+<body>
+    <div class="phone"> <!-- The Cointainer of whole content -->
+        <div class="screen">
+            <div class="image">
+                <p class="productName"><span class="fword">Solve</span><span class="sword">Moto</span></p>
+                <img src="entrepimage.jpg">
+                <br>
+                <a href="choice.html"><button class="icon-button">Click to start</button></a>
+            </div>
+        
+
+
+        <div class="buttons">
+          <!-- Buttons or controls -->
+          <a href="home.html"><button class="nav-button">&#9664;</button></a>
+          <a href="home.html"><button class="nav-button">&#8962;</button></a>
+          <a href="credits.html"><button class="nav-button">■</button></a>
+        </div>
+    </div>
+
+    <script src="app.js" async defer></script>
+</html>

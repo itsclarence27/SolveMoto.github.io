@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 20px 'Montserrat', sans-serif;
+}
+
+  .phone {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    position: relative;
+    border: solid 15px black;
+    border-top: solid 40px black;
+    
+  }
+  
+  .screen {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .screen p {
+    font-size: 24px;    
+  }
+  
+  .buttons {
+    position: absolute;
+    margin-top: 545px;
+    margin-right: 0;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 1px;
+  }
+  
+  .buttons button {
+      width: 80px;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ccc;
+      cursor: pointer;
+  }
+  
+  .nav-button {
+      color: black;
+      font-size: 20px;
+      margin-right: 5px;
+      
+  }
+
+  .choosingArithmetic {
+    position: relative;
+    width: 100%;
+    text-align: center; 
+    left: 103px;
+  }
+
+  .choosingArithmetic p {
+    margin-left: 0;
+    margin-bottom: 250px;
+    text-align: center;
+  }
+  .productName {
+    font: 20px "Indie Flower", cursive;
+    text-align: center;
+  }
+  
+  .arithmetics {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 100px;
+    padding-bottom: 20px;   
+  }
+
+  .addition {
+    margin-top: 5px;
+    padding: 3px;
+    border: solid 1px black;
+    text-align: center;
+    font: 20px "Indie Flower", cursive;
+    color: green;
+    background-color: #8FBC8B;
+    height: 100%;
+    width: 100%;
+  }
+
+  .subtraction {
+    margin-top: 5px;
+    padding: 3px;
+    border: solid 1px black;
+    text-align: center;
+    font: 20px "Indie Flower", cursive;
+    color: red;
+    background-color: #8FBC8B;
+  }
+
+  .multiplication {
+    margin-top: 5px;
+    padding: 3px;
+    border: solid 1px black;
+    text-align: center;
+    font: 20px "Indie Flower", cursive;
+    color: blue;
+    background-color: #8FBC8B;
+  }
+
+  .division {
+    margin-top: 5px;
+    padding: 3px;
+    border: solid 1px black;
+    text-align: center;
+    font: 20px "Indie Flower", cursive;
+    color: purple;
+    background-color: #8FBC8B;
+  }
+
+  .arithmetics a {
+    text-decoration: none;
+  }
+
+  .arithmetics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Add some gap between grid items */
+}
+
+.arithmetics div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 70%; /* Adjust the height as needed */
+}
+
+    </style>
+</head>
+<body>
+    <div class="phone"> <!-- The Cointainer of whole content -->
+        <div class="screen">
+            <div class="choosingArithmetic">
+                <p class="productName"><span style="color:red;">Group </span>5 <span style="color: blue">Members</span></p>
+            </div>
+            <br><br><br>
+            <div class="arithmetics">
+                <div class="addition">Clarence Aquino</div>
+                <div class="subtraction">Andra Lee Rojado</div>
+                <div class="multiplication">Brian Lawrence Salvacion</div>
+                <div class="division">Angel Poblete</div>
+                <div class="addition">Janica Lopez</div>
+                <div class="subtraction">Oliver Canulo</div>
+                <div class="multiplication">Threat Sever Lingling</div>
+            </div>
+        
+
+
+        <div class="buttons">
+          <!-- Buttons or controls -->
+          <a href="choice.html"><button class="nav-button">&#9664;</button></a>
+          <a href="home.html"><button class="nav-button">&#8962;</button></a>
+          <a href="credits.html"><button class="nav-button">■</button></a>
+        </div>
+    </div>
+
+    <script src="app.js" async defer></script>
+</html>

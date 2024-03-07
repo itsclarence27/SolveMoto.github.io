@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 20px 'Montserrat', sans-serif;
+}
+
+  .phone {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    position: relative;
+    border: solid 15px black;
+    border-top: solid 40px black;
+    
+  }
+  
+  .screen {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .screen p {
+    font-size: 24px;
+  }
+  
+  .buttons {
+    margin-top: 94px;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 1px;
+  }
+  
+  .buttons button {
+      width: 80px;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ccc;
+      cursor: pointer;
+  }
+  
+  .nav-button {
+      color: black;
+      font-size: 20px;
+  }
+
+/* The container */
+
+.math-games {
+    background: #fcfcfc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    box-shadow: 2px 5px 10px #34495e;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 1px dashed #333;
+    outline: none;
+    border-radius: 5px;
+    background: none;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.math-games span {
+    font: 40px "Indie Flower", cursive;
+}
+
+button {
+    border: none;
+    background: #1abc9c;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.items {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0; 
+}
+
+/* styling the modal */
+.modal-container {
+    position: absolute;
+    right: 15px;
+    bottom: 60px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #555;
+    padding: 20px;
+    background: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 2px #555;
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    font-size: 25px;
+
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.theAnswer {
+    font-size: 15px;
+}
+
+.nextButton {
+    font-size: 15px;
+}
+
+.next-container {
+    position: absolute;
+    right: 15px;
+    bottom: 120px;
+    width: 100px;
+    height: 10px;
+    border: 1px solid #555;
+    padding: 10px;
+    padding-bottom: 30px;
+    background: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 2px #555;
+    background: #1abc9c;  
+    display: none;
+    cursor: pointer;
+}
